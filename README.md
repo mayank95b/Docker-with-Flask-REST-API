@@ -7,7 +7,8 @@
 - in most of the cases web services will return json where as Web application will return web pages i.e. index.html(eg. return render_template("index.html")
 
 - All communications b/w server/server,server/browser, browser/browser will in  some form of text/json (images or videos are invalid.)
-json eg :
+
+- For example Json data can send as  shown below :
 
                 {
                   "field1" : 3,  # value can be number,string,boolean & array
