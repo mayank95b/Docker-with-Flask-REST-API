@@ -1,5 +1,5 @@
 from flask import Flask #Flask is the constructor of flask application
-from flask import jsonify
+from flask import jsonify,request
 app = Flask(__name__) #__name__ can be any title name
 
 # 127.0.0.1:5000/
