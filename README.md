@@ -40,5 +40,21 @@
                    }
 
                    ]
-                }
-                
+## Docker Concept
+
+Docker is a platform for developers and sysadmins to build, run, and share applications with containers. The use of containers to deploy applications is called containerization. Containers are not new, but their use for easily deploying applications is.
+
+### Docker Engine
+
+Docker Engine is a client-server application with these major components:
+
+   - A server which is a type of long-running program called a daemon process (the dockerd command).
+
+   - A REST API which specifies interfaces that programs can use to talk to the daemon and instruct it what to do.
+
+   - A command line interface (CLI) client (the docker command).
+
+   <img src ="flow.png">
+
+
+### Set up your Docker environment
