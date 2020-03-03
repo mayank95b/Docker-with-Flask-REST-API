@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  Flask_with_REST_API:
+    build: ./Flask_with_REST_API
+    ports:
+      - "5000:5000"
