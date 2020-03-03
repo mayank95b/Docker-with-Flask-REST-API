@@ -1,2 +1,2 @@
 Flask
-Flask-RESTful
+flask_restful
