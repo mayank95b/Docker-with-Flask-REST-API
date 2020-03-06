@@ -1,7 +1,7 @@
 # Flask_with_REST_API
 
-
-## Basics of Flask and Json data
+Flask is a web application framework written in Python. It is developed by Armin Ronacher, who leads an international group of Python enthusiasts named Pocco. Flask is based on the Werkzeug WSGI toolkit and Jinja2 template engine. 
+Flask is often referred to as a micro framework. It aims to keep the core of an application simple yet extensible.
 
 ### Difference b/w Web application and Web Service is that :
 - in most of the cases web services will return json where as Web application will return web pages i.e. index.html(eg. return render_template("index.html")
