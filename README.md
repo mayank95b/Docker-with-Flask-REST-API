@@ -76,29 +76,29 @@ Please refer to below reference :
 
 #### List Docker Containers
 
-The basic format for using docker is:
+- The basic format for using docker is:
 
-     sudo docker command [options]
+      sudo docker command [options]
 
-To list all running Docker containers, enter the following into a terminal window:
+- To list all running Docker containers, enter the following into a terminal window:
 
-     sodu docker ps
+      sodu docker ps
 
-To list all containers, both running and stopped, add –a :
+- To list all containers, both running and stopped, add –a :
 
-     sudo docker ps –a
+      sudo docker ps –a
 
-To list containers by their ID use –aq (quiet):
+- To list containers by their ID use –aq (quiet):
 
-     sudo docker ps –aq
+      sudo docker ps –aq
 
-To list the total file size of each container, use –s (size):
+- To list the total file size of each container, use –s (size):
 
-     sudo docker ps –s
+      sudo docker ps –s
 
-To list the latest created containers, use –l (latest):
+- To list the latest created containers, use –l (latest):
 
-     sudo docker ps –l
+      sudo docker ps –l
 
 ###  Start Docker Container
 
@@ -108,13 +108,23 @@ The main command to launch or start a single or multiple stopped Docker containe
 
 ### Stop Docker Container
 
-Use the docker stop command to stop a container:
+- Use the docker stop command to stop a container:
 
-    sudo docker stop [option] container_id
+      sudo docker stop [option] container_id
     
-Replace container_id with the container’s name or ID.
+- Replace container_id with the container’s name or ID.
 
-By default, you get a 10 second grace period. The stop command instructs the container to stop services after that period. Use the --time option to define a different grace period expressed in seconds:
+- By default, you get a 10 second grace period. The stop command instructs the container to stop services after that period. Use the --time option to define a different grace period expressed in seconds:
 
-    sudo docker stop --time=20 container_id
+      sudo docker stop --time=20 container_id
+
+- To immediately kill a docker container without waiting for the grace period to end use:
+
+      docker kill [option] container_id
+
+To stop all running containers, enter the following:
+
+docker stop $(docker ps –a –q)
+
+The same command could be used with kill. This would stop all containers without giving them a chance to exit.
 
