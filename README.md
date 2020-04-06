@@ -82,23 +82,23 @@ Please refer to below reference :
 
 - To list all running Docker containers, enter the following into a terminal window:
 
-      sodu docker ps
+      sudo docker ps
 
 - To list all containers, both running and stopped, add –a :
 
-      sudo docker ps –a
+      sudo docker ps -a
 
 - To list containers by their ID use –aq (quiet):
 
-      sudo docker ps –aq
+      sudo docker ps -aq
 
 - To list the total file size of each container, use –s (size):
 
-      sudo docker ps –s
+      sudo docker ps -s
 
 - To list the latest created containers, use –l (latest):
 
-      sudo docker ps –l
+      sudo docker ps -l
 
 ###  Start Docker Container
 
