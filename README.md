@@ -1,6 +1,6 @@
 # Docker with Flask REST API
 
-Flask is a web application framework written in Python. It is developed by Armin Ronacher, who leads an international group of Python enthusiasts named Pocco. Flask is based on the Werkzeug WSGI toolkit and Jinja2 template engine. 
+Flask is a web application framework written in Python. It is based on the Werkzeug WSGI toolkit and Jinja2 template engine. 
 Flask is often referred to as a micro framework. It aims to keep the core of an application simple yet extensible.
 
 ### Difference b/w Web application and Web Service is that :
