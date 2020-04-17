@@ -73,7 +73,7 @@ Docker Engine is a client-server application with these major components:
 
 Please refer to below reference :
   
-      https://docs.docker.com/install/linux/docker-ce/ubuntu/
+https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
 #### Dockers Basic Commands
 
