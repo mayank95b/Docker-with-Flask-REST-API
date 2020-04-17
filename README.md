@@ -42,7 +42,8 @@ Flask is often referred to as a micro framework. It aims to keep the core of an 
                    ]
 ## Docker Concept
 
-- Docker is a platform for developers and sysadmins to build, run, and share applications with containers. The use of containers to deploy applications is called containerization. Containers are not new, but their use for easily deploying applications is.
+- Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and deploy it as one package
+
 
 - Docker is a popular virtualization tool that replicates a specific operating environment on top of a host OS. Each environment is called a container.
 
