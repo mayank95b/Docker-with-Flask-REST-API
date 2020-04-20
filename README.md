@@ -53,6 +53,16 @@ Docker Hub is a service provided by Docker for finding and sharing container ima
 - **Builds:** Automatically build container images from GitHub and Bitbucket and push them to Docker Hub.
 - **Webhooks:** Trigger actions after a successful push to a repository to integrate Docker Hub with other services.
 
+#### Deployment Process
+
+- step 1 : Build the Project
+
+      sudo docker-compose build
+      
+- step 2 : Run the project in detached mode to access file while its running.
+  
+      sudo docker-compose up -d
+  
 
 #### Dockers Basic Commands
 
