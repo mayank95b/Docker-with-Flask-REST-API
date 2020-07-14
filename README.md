@@ -10,6 +10,12 @@
 
 - Docker integrates with Jenkins and Bamboo, too. If you use it together with one of these automation servers, you can further improve your delivery workflow. Besides, Docker is also great for cloud computing. In recent years, all major cloud providers such as AWS and Google Cloud added support for Docker. So, if you are planning a cloud migration, Docker can ease the process for you.
 
+### Advantages of Docker
+
+- Environment Standardization
+
+- To build once and deploy it anywhere
+
 ### Docker Engine
 
 Docker Engine is a client-server application with these major components:
