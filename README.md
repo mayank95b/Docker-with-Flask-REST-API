@@ -118,9 +118,9 @@ The main command to launch or start a single or multiple stopped Docker containe
 
       docker kill [option] container_id
 
-To stop all running containers, enter the following:
+- To stop all running containers, enter the following:
 
-docker stop $(docker ps –a –q)
+      docker stop $(docker ps –a –q)
 
 The same command could be used with kill. This would stop all containers without giving them a chance to exit.
 
